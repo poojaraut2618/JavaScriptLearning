@@ -40,3 +40,13 @@ function rajuBhaiya(paisa){
 }
 var bagOfVegetables = rajuBhaiya(100);
 console.log(bagOfVegetables);
+
+function multiply(num1, num2){
+    var result = num1 * num2;
+    console.log(result);
+    return result;
+}
+console.log(multiply(4, 5));
+var multiplyResult = multiply(56, 45);
+var finalResult = multiplyResult + 200;
+console.log(finalResult);
