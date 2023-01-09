@@ -84,10 +84,14 @@ fiboSeries();
 console.log("\n============Prime Number=============");
 
 function primeNo(num){
-    if(num%2 !== 0){
-        console.log(`Given Number ${num} is Prime Number`);
-    }else{
+    let value = 10;
+    for( index = 2; index < value; index++){
+        
+    }
+    if(num % index == 0){
         console.log(`Given Number ${num} is not a Prime Number`);
+    }else{
+   console.log(`Given Number ${num} is a Prime Number`);
     }
 }
 primeNo(11);
